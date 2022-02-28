@@ -24,4 +24,4 @@ To run your tests
 
 [array-reverse challenge](./javascript/code-challenges/array_reverse/README.md)
 
-[array-reverse challenge](./javascript/code-challenges/array-insert-shift/README.md)
+[array-insert-shift](./javascript/code-challenges/array-insert-shift/README.md)
