@@ -99,6 +99,23 @@ kthFromEnd(k) {
   return current.value;
 
 
+  zipList(link1, link2) {
+
+    let l1 = link1.head;
+    let l2 = link2.head;
+
+    while (l1 || l2) {
+      if (l1) {
+        this.append(l1.value);
+        l1 = l1.next;
+      }
+      if (l2) {
+        this.append(l2.value);
+        l2 = l2.next;
+      }
+    }
+  }
+
 }
 
 module.exports = LinkedList;
